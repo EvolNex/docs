@@ -1,0 +1,60 @@
+{
+	"$schema": "https://mintlify.com/schema.json",
+	"name": "Evolnex Docs",
+	"logo": {
+		"dark": "/logo/dark.svg",
+		"light": "/logo/light.svg"
+	},
+	"favicon": "/favicon.png",
+	"colors": {
+		"primary": "#3ccf90",
+		"light": "#43e8a0",
+		"dark": "#2d9c6c",
+		"anchors": {
+			"from": "#3ccf90",
+			"to": "#43e8a0"
+		}
+	},
+	"tabs": [
+		{
+			"name": "Para Designers",
+			"url": "designers"
+		}
+	],
+	"anchors": [
+		{
+			"name": "Github",
+			"icon": "github",
+			"url": "https://github.com/EvolNex"
+		}
+	],
+	"navigation": [
+		{
+			"group": "Sobre",
+			"pages": ["quickstart", "documentacao"]
+		},
+		{
+			"group": "Padrões",
+			"pages": ["padroes/boas-praticas", "padroes/design-patterns", "padroes/style-guide"]
+		},
+		{
+			"group": "Boilerplates",
+			"pages": ["boilerplates/nextjs", "boilerplates/wordpress", "boilerplates/vanilla"]
+		},
+		{
+			"group": "Snippets",
+			"pages": ["Prettify"]
+		},
+		{
+			"group": "Componentes",
+			"pages": ["Anchor Button", "RichText", "Accordion"]
+		},
+		{
+			"group": "Changelog",
+			"pages": ["changelog/atualizacoes", "changelog/novidades"]
+		}
+	],
+	"footerSocials": {
+		"github": "https://github.com/EvolNex"
+	}
+}
